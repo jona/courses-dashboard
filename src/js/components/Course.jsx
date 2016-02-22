@@ -33,8 +33,9 @@ export default class Course extends React.Component {
 
     return (
       <div>
-        <Link to="/" className="btn"><i className="fa fa-arrow-left"></i> Back to Course List</Link>
-
+        <div className='top-nav'>
+          <Link to="/" className="btn"><i className="fa fa-arrow-left"></i> Back to Course List</Link>
+        </div>
         <div className='course'>
           <h1>{this.state.data.name} - {this.state.data.code}</h1>
           <h2><strong>Starts at</strong>: {this.state.data.start_at ? moment(this.state.data.start_at).format('MMMM Do YYYY, h:mm a') : 'Not specified'} - <strong>Ends at</strong>: {this.state.data.end_at ? moment(this.state.data.end_at).format('MMMM Do YYYY, h:mm a') : 'Not specified'}</h2>

@@ -18,16 +18,16 @@ export default class CourseListNav extends React.Component {
 
     if(this.props.links.prev !== undefined){
       nav.push(
-        <Link key='prev-link' to={`/?page=${this.props.links.prev.page}&per_page=${this.props.links.prev.per_page}`} className="prev-link">Previous</Link>
+        <Link key='prev-link' to={`/?page=${this.props.links.prev.page}&per_page=${this.props.links.prev.per_page}`} className="btn prev-link"><i className="fa fa-arrow-left"></i> Previous</Link>
       )
     } 
     
     if(this.props.links.next !== undefined){
       nav.push(
-        <Link key='next-link' to={`/?page=${this.props.links.next.page}&per_page=${this.props.links.next.per_page}`} className="next-link">Next</Link>
+        <Link key='next-link' to={`/?page=${this.props.links.next.page}&per_page=${this.props.links.next.per_page}`} className="btn next-link">Next <i className="fa fa-arrow-right"></i></Link>
       )
     }
 
-    return <div>{nav}</div>
+    return <div className="course-list-nav">{nav}</div>
   }
 }

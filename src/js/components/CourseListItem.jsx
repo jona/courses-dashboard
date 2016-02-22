@@ -15,9 +15,9 @@ export default class CourseListItem extends React.Component {
 
   render(){
     return (
-      <div>
+      <li>
         <Link to={`/courses/${this.props.course.id}`} className="course-name">{this.props.course.name} - {this.props.course.code}</Link>
-      </div>
+      </li>
     )
   }
 }

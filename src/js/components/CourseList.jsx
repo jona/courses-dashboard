@@ -46,7 +46,7 @@ export default class CourseList extends React.Component {
     })
 
     return (
-      <div>
+      <div className="course-list">
         <h1 className="course-list-header">Course list</h1>
 
         <ul className="courses">
