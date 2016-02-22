@@ -11,7 +11,7 @@ ReactDOM.render(
   (
     <Router history={browserHistory}>
       <Route path="/" component={CourseList} />
-      <Route path="/courses/:name" component={Course} />
+      <Route path="/courses/:id" component={Course} />
     </Router>
   ),
   document.getElementById('app')
