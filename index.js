@@ -8,7 +8,7 @@ function toResponse(obj) {
 var app = express();
 app.use(express.static('.'));
 
-app.get(/^\/(?!api(\/|$)).*$/, function (request, response){
+app.get('*', function (request, response){
   response.sendFile(path.resolve(__dirname, 'index.html'))
 });
 
