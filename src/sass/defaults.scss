@@ -8,21 +8,3 @@ ul,li{
   margin:0;
   padding:0;
 }
-
-a.btn{
-  color:#444;
-  text-decoration:none;
-}
-
-.btn{
-  display:inline-block;
-  border:1px solid #eee;
-  background:#fff;
-  padding:10px 20px;
-  border-radius:2px;
-  box-shadow:0 0 5px rgba(0,0,0,0.05);
-
-  &:hover{
-    background:#fafafa;
-  }
-}
