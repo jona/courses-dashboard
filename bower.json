@@ -1,0 +1,16 @@
+{
+  "name": "CourseAPI",
+  "description": "React-based course consumer app",
+  "main": "index.js",
+  "authors": [
+    "Jonathan Morua"
+  ],
+  "license": "All rights reserved",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.11.2",
+    "normalize-css": "^3.0.3"
+  }
+}

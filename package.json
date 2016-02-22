@@ -1,0 +1,44 @@
+{
+  "name": "CourseAPI",
+  "version": "1.0.0",
+  "description": "Course consumer app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babelify": "^7.2.0",
+    "bower": "^1.7.7",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.0.3",
+    "main-bower-files": "^2.11.1",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "bower": "bower --allow-root",
+    "bower-install": "bower --allow-root --save install",
+    "gulp": "gulp",
+    "build": "gulp bwr && gulp build"
+  },
+  "author": "Jonathan Morua",
+  "license": "All rights reserved"
+}
